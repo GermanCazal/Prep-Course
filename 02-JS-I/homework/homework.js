@@ -6,7 +6,7 @@ const nuevaString = "hola";
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 20;
 
-// Crea una variable booleana:
+// Crea una variable booleana:n
 const nuevoBool = 3+3 == 3;
 
 // Resuelve el siguiente problema matemático:
@@ -28,13 +28,20 @@ const nuevoModulo = 21 % 8 === 5;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
+   return str
   
 }
+
+
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+ 
+  return x + y
+ suma (3, 5)
+
   
 }
 
@@ -42,24 +49,33 @@ function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   
+  return x - y
+  resta (4, 3)
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   
+  return x * y
+  multiplica (3, 5)
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   
+  return x / y
+  divide (20, 5) 
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  return x == y 
+  sonIguales (4, 4)
   
 }
 
@@ -94,6 +110,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  
   
 }
 
